@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://soulextractor/skin/overlay.css" type="text/css" ?>
+
+<overlay id="messengerWindow" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+  <script type="application/x-javascript" src="chrome://soulextractor/content/overlay.js" />
+  <keyset>
+    <key id="tblatex-run" modifiers="accel shift" key="S" oncommand="Soulextractor.dialog();"/>
+  </keyset>
+  <toolbarpalette id="MailToolbarPalette">
+    <toolbarbutton id="soulextractor-button"
+      class="toolbarbutton-1"
+      label="Soulextractor"
+      type="button"
+      tooltiptext="Insert a link"
+      oncommand="Soulextractor.dialog();"
+      />
+  </toolbarpalette>
+</overlay>

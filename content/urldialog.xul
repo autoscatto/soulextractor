@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://messenger/skin/dialogs.css" type="text/css"?>
+<?xml-stylesheet href="chrome://soulextractor/skin/overlay.css" type="text/css" ?>
+<dialog id="url-insert"
+  title="Soulextractor"
+  buttons="accept,cancel"
+  ondialogaccept="return click_(true);"
+  ondialogcancel="return click_(false);"
+  onload="initia();"
+  xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+<script type="text/javascript" src="chrome://soulextractor/content/urldialog.js"/>
+<label control="some-text" value="Enter email"/> <textbox id="maila" flex="1"/>
+<label control="s" value="File path"/><textbox disabled="true" id="patta" flex="1"/> <button label="Save to"  oncommand="savedia();"/>
+<checkbox id="structa" label="Structured output" checked="false"/>
+</dialog>

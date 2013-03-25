@@ -1,0 +1,6 @@
+content soulextractor content/
+skin soulextractor classic/1.0 skin/
+style chrome://global/content/customizeToolbar.xul chrome://soulextractor/skin/overlay.css
+overlay chrome://messenger/content/messenger.xul  chrome://soulextractor/content/overlay.xul
+#button
+overlay chrome://global/content/customizeToolbar.xul chrome://soulextractor/content/overlay.xul
